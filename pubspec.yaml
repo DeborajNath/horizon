@@ -1,0 +1,31 @@
+name: horizon
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  bishop: ^1.4.4
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^7.1.1
+  gap: ^3.0.1
+  google_sign_in: ^6.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  square_bishop: ^0.3.0
+  squares: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
